@@ -1,0 +1,591 @@
+/* ここから下に記載していく */
+#header {
+    width: 945px;
+    height: 45px;
+    background-image: url(../img/header_logo.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 200px;
+    margin: 10px 10px  ;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+#header_doc {
+    display: flex;
+    text-align: center;
+    margin: 30px 300px;
+}
+#header_about {
+    margin: -10px 25px;
+    color: #222222;
+}
+#header_course {
+    margin: -10px 25px;
+    color: #222222;
+}
+#header_news {
+    margin: -10px 25px;
+    color: #222222;
+}
+#header_access {
+    margin: -10px 25px;
+    color: #222222;
+}
+#header_contact {
+    margin: -10px 25px;
+    color: #222222;
+}
+#title {
+    width: 945px;
+    height: 345px;
+    background-image: url(../img/mainbg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+#title_main {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 120px;
+}
+#title_sub {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+}
+#about_main {
+    color: #ffd61a;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 60px;
+}
+#about_sub {
+    color: #222222;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 30px;
+}
+#about_sub1 {
+    color: #222222;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 30px;
+}
+#about_sub2 {
+    color: #222222;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 30px;
+}
+#about_sub3 {
+    color: #222222;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
+}
+#about_sub4 {
+    color: #222222;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 30px;
+}
+#about_sub5 {
+    color: #222222;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#about_img {
+    width: 945px;
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 20px;
+    z-index: 1;
+}
+
+#about_img img {
+    width: 236px;
+}
+
+
+#course_main {
+    color: #222222;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 60px;
+}
+#course_sub {
+    color: #222222;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 30px;
+}
+#course_sub1 {
+    color: #222222;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
+}
+#course {
+    width: 945px;
+    height: 1400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+#course_top {
+    width: 945px;
+    height: 200px;
+}
+#course_pic1 {
+    width: 472.5px;
+    height: 400px;
+    background-image: url(../img/course_01.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+#course_doc1 {
+    width: 472.5px;
+    height: 400px;
+}
+#course_by1 {
+    display: flex;
+}
+#course_doc1_main {
+    color: #222222;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 70px;
+    font-weight: bold;
+}
+#course_doc1_sub {
+    color: #222222;
+    font-size: 16px;
+    text-align: left;
+    padding-top: 40px;
+}
+#course_doc1-1 {
+    width: 372.5px;
+    height: 300px;
+    align-items: center;
+    padding: 50px;
+}
+#course_pic2 {
+    width: 472.5px;
+    height: 400px;
+    background-image: url(../img/course_02.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+#course_doc2 {
+    width: 472.5px;
+    height: 400px;
+}
+#course_by2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+#course_doc2_main {
+    color: #222222;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 70px;
+    font-weight: bold;
+}
+#course_doc2_sub {
+    color: #222222;
+    font-size: 16px;
+    text-align: left;
+    padding-top: 40px;
+}
+#course_doc2-1 {
+    width: 372.5px;
+    height: 300px;
+    align-items: center;
+    padding: 50px;
+}
+#course_pic3 {
+    width: 472.5px;
+    height: 400px;
+    background-image: url(../img/course_01.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+#course_doc3 {
+    width: 472.5px;
+    height: 400px;
+}
+#course_by3 {
+    display: flex;
+}
+#course_doc3_main {
+    color: #222222;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 70px;
+    font-weight: bold;
+}
+#course_doc3_sub {
+    color: #222222;
+    font-size: 16px;
+    text-align: left;
+    padding-top: 40px;
+}
+#course_doc3-1 {
+    width: 372.5px;
+    height: 300px;
+    align-items: center;
+    padding: 50px;
+}
+#news {
+    width: 945px;
+    height: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+#news_main {
+    color: #ffd61a;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 60px;
+}
+#news_sub {
+    color: #222222;
+    font-size: 20px;
+    /* font-weight: bold; */
+    text-align: center;
+    padding-top:  30px;
+}
+#news_contents {
+    display: flex;
+    padding: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+.news_date {
+    color: #222222;
+    font-size: 10px;
+    /* font-weight: bold; */
+    text-align: left;
+    padding-top:  30px;
+}
+.news_doc {
+    color: #222222;
+    font-size: 10px;
+    /* font-weight: bold; */
+    text-align: left;
+    padding-top:  24px;
+}
+#news_content1 {
+    padding: 10px;
+}
+#news_content2 {
+    padding: 10px;
+}
+#news_content3 {
+    padding: 10px;
+}
+
+#more {
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    outline: none;
+    display: block;
+    line-height: 30px;
+    width: 160px;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+    background-color: #696;
+    border-bottom: 4px solid #464;
+    cursor:pointer;
+    box-sizing: content-box;
+    transition:0.3s ease all
+}
+#more:hover{
+    border-bottom-width:0;
+    transform:translateY(4px)
+  }
+#access {
+    width: 945px;
+    height: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+#access_main {
+    color: #222222;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 60px;
+}
+#access_sub {
+    color: #222222;
+    font-size: 15px;
+    /* font-weight: bold; */
+    text-align: center;
+    padding-top: 10px;
+}
+
+#access_detail {
+    display: flex; /* 子要素をflexboxで揃える */
+    flex-direction: column; /* 子要素をflexboxにより縦方向に揃える */
+    justify-content: center; /* 子要素をflexboxにより中央に配置する */
+    align-items: center;  /* 子要素をflexboxにより中央に配置する */
+    
+}
+#access_doc1 {
+    color: #222222;
+    font-size: 15px;
+    /* font-weight: bold; */
+    text-align: left;
+    padding-top: 10px;
+}
+#access_doc2 {
+    color: #222222;
+    font-size: 15px;
+    /* font-weight: bold; */
+    text-align: left;
+    padding-top: 10px;
+}
+#access_doc3 {
+    color: #222222;
+    font-size: 15px;
+    /* font-weight: bold; */
+    text-align: left;
+    padding-top: 10px;
+}
+#access_doc4 {
+    color: #222222;
+    font-size: 15px;
+    /* font-weight: bold; */
+    text-align: left;
+    padding-top: 10px;
+}
+#access_doc5 {
+    color: #222222;
+    font-size: 15px;
+    /* font-weight: bold; */
+    text-align: left;
+    padding-top: 10px;
+}
+#contact {
+    width: 945px;
+    height: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+#contact_main {
+    color: #222222;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 60px;
+}
+#contact_sub {
+    color: #222222;
+    font-size: 15px;
+    /* font-weight: bold; */
+    text-align: center;
+    padding-top: 30px;
+}
+#contact_doc1 {
+    color: #222222;
+    font-size: 15px;
+    /* font-weight: bold; */
+    text-align: center;
+    padding-top: 10px;
+}
+#contact_doc2 {
+    color: #222222;
+    font-size: 15px;
+    /* font-weight: bold; */
+    text-align: center;
+    padding-top: 10px;
+}
+#contact_doc3 {
+    color: #222222;
+    font-size: 15px;
+    /* font-weight: bold; */
+    text-align: center;
+    padding-top: 30px;
+}
+#contact_doc4 {
+    color: #222222;
+    font-size: 15px;
+    /* font-weight: bold; */
+    text-align: center;
+    padding-top: 10px;
+}
+#contact_doc5 {
+    color: #222222;
+    font-size: 15px;
+    /* font-weight: bold; */
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
+footer {
+    background-color: darkgray;
+    text-align: center;
+    padding: 30px;
+}
+
+
+.contact-form {
+    margin: 10px 10px  ;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+    font-size: 13px;
+    font-family: sans-serif;
+  }
+  .contact-form .item {
+    display: block;
+    overflow: hidden;
+    margin-bottom: 10px;
+    
+  }
+  .contact-form .item.no-label {
+    padding: 5px 0px 5px 0px;
+    margin-left: 45%;
+    /* margin-right: auto; */
+
+  }
+  .contact-form .item .label {
+    display: block;
+    text-align: left;
+    margin-left: 30%;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+  }
+  .contact-form .item .radio-group{
+    padding: 5px 0px 5px 0px;
+    text-align: left;
+    margin-left: 53%;
+    margin-right: auto;
+  }
+  .contact-form .item .how{
+    padding: 5px 0px 5px 200px;
+    margin-left: 300px;
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 13px;
+    
+  }
+  .contact-form .item input[type=text],
+  .contact-form .item input[type=email],
+  .contact-form .item textarea {
+    margin-left: 300px;
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 13px;
+  }
+  .contact-form .item ::placeholder {
+    color: #ccc;
+  }
+  .contact-form .item textarea {
+    outline: none;
+    border: 1px solid #ccc;
+    resize: vertical;
+  }
+  input[type=submit] {
+    border: none;
+    outline: none;
+    display: block;
+    line-height: 30px;
+    width: 160px;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+    background-color: #696;
+    border-bottom: 4px solid #464;
+    cursor:pointer;
+    box-sizing: content-box;
+    transition:0.3s ease all
+    
+  }
+  input[type=submit]:hover{
+    border-bottom-width:0;
+    transform:translateY(4px)
+  }
